@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5078b7;
+}
+
+.container {
+  margin: 5em auto 0 auto;
+  width: 40em;
+  text-align: center;
+}
+
+.grid-container {
+  width: 600px;
+  height: 600px;
+}
+
+.cell {
+  float: left;
+  background-color: #FFFFFF;
+}
+
+#cell-size {
+  width: 30px;
+}

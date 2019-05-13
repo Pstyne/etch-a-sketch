@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Etch A Sketch</title>
+</head>
+<body>
+  <h1 style="text-align: center;">Etch A Sketch</h1>
+  <div class="container">
+    <input maxlength="3" type="text" id="cell-size" value="16">
+    <button onclick="changeGrid(document.getElementById('cell-size').value)">Change Grid</button>
+    <button onclick="black()">Black</button>
+    <button onclick="rainbow()">Rainbow</button>
+    <button onclick="eraser()">Erase</button>
+    <button onclick="clearGrid()">Clear</button>
+    <div class="grid-container"></div>
+  </div>  
+  <script src="main.js"></script>
+</body>
+</html>
